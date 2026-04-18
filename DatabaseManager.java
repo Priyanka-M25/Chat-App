@@ -27,7 +27,7 @@ public class DatabaseManager {
         // Default DB settings (you can change DB name if needed)
         this.jdbcUrl = "jdbc:mysql://localhost:3306/chat_db?useSSL=false&serverTimezone=UTC";
         this.dbUser = "root";
-        this.dbPass = "p#r12i#ya";  // <-- Replace this
+        this.dbPass = "#########";  // <-- Replace this
     }
 
     public DatabaseManager(String jdbcUrl, String dbUser, String dbPass) {
