@@ -357,7 +357,7 @@ public class ChatServer {
         // Update these for your MySQL instance:
         String jdbcUrl = "jdbc:mysql://localhost:3306/chat_db?useSSL=false&serverTimezone=UTC";
         String dbUser = "root";
-        String dbPass = "p#r12i#ya";
+        String dbPass = "#########";
 
         DatabaseManager db = new DatabaseManager(jdbcUrl, dbUser, dbPass);
         int port = DEFAULT_PORT;
