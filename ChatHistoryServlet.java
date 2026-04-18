@@ -12,7 +12,7 @@ public class ChatHistoryServlet extends HttpServlet {
             db = new DatabaseManager(
                 "jdbc:mysql://localhost:3306/chat_db?useSSL=false&serverTimezone=UTC",
                 "root",
-                "p#r12i#ya"
+                "#########"
             );
         } catch (Exception e) {
             throw new ServletException(e);
